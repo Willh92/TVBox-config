@@ -19,7 +19,7 @@
 var rule = {
     title:'哔哩影视',
     host:'https://api.bilibili.com',
-    url:'/fyclass-fypage&vmid=$vmid',
+    url:'/fyclass-fypage&vmid=304113224',
     detailUrl:'/pgc/view/web/season?season_id=fyid',
     filter_url:'fl={{fl}}',
     vmid获取教程:'登录后访问https://api.bilibili.com/x/web-interface/nav,搜索mid就是,cookie需要 bili_jct,DedeUserID,SESSDATA参数',
@@ -30,7 +30,7 @@ var rule = {
     headers:{
         'User-Agent':'PC_UA',
         "Referer": "https://www.bilibili.com",
-        "Cookie":"buvid3=E69DF16E-7253-CAEC-6450-F46C7544067060567infoc; b_nut=1725707160; _uuid=2718A56B-10BE1-CE10B-C2AE-AE3105DD103951059747infoc; buvid_fp=f0d8d180a49fc7228aca891562ce0fad; buvid4=52292267-8CA1-0050-D12E-AD0599E8088262637-024090711-OBcCe2QD6gmUn%2BC2hTo8ng%3D%3D; b_lsid=B10DDE299_1920F749D7B; header_theme_version=CLOSE; enable_web_push=DISABLE; SESSDATA=4f6f3f9e%2C1742388188%2Cbab4b%2A92CjBFyhGXYtNHjmRqxaYB5w5ZsYkYFFHFMm5MEfbFkkn79Kh5Ibw26d1ZjQv-CQal3Z8SVkl6ZDZlbExJYzVYSVIxUXdrODhCb3JQOGtocFcxZ1kzdFZ3VHM4eURFd2hYX3RFQl9xOUpOSnpiVzRIMWxVb3JMNVdYVjNLWFNmaTJ0eGpoZ3haejlnIIEC; bili_jct=33547da80617d4855a89aedaa9acc3df; DedeUserID=304113224; DedeUserID__ckMd5=962cf4190b9f31e4; sid=fomwcq7m; home_feed_column=4; browser_resolution=1060-2292"
+        "Cookie":"bili_jct=ea5f38d13c90740d9ef54396c6437a15; DedeUserID=304113224; DedeUserID__ckMd5=962cf4190b9f31e4; SESSDATA=74bd926a%2C1743513864%2Ced294%2Aa1CjCMcCvnGvV0sYK60THuqSb0zyDKs4INTzTxdJ8A-NYdZZ09fFPXhPdi1KjFSVK0dy0SVkRERU9QQUVjcGtVMXMyVWloYjRtYWYyUVJpNld5QmlKUlVTNG5TajF0OVNhekpPdWl5c3FMMlBrRkN3X1NzTFVEb2xKZzRCb2JZMmpBUGdWWkVPcFR3IIEC;"
     },
     timeout:5000,
     class_name:'番剧&国创&电影&电视剧&纪录片&综艺&全部&追番&追剧&时间表',
