@@ -30,7 +30,7 @@ var rule = {
     headers:{
         'User-Agent':'PC_UA',
         "Referer": "https://www.bilibili.com",
-        "Cookie":"bili_jct=ea5f38d13c90740d9ef54396c6437a15; DedeUserID=304113224; DedeUserID__ckMd5=962cf4190b9f31e4; SESSDATA=74bd926a%2C1743513864%2Ced294%2Aa1CjCMcCvnGvV0sYK60THuqSb0zyDKs4INTzTxdJ8A-NYdZZ09fFPXhPdi1KjFSVK0dy0SVkRERU9QQUVjcGtVMXMyVWloYjRtYWYyUVJpNld5QmlKUlVTNG5TajF0OVNhekpPdWl5c3FMMlBrRkN3X1NzTFVEb2xKZzRCb2JZMmpBUGdWWkVPcFR3IIEC;"
+        "Cookie":"bili_jct=abb877ea0b649f06c6d747b3722add01; DedeUserID=304113224; DedeUserID__ckMd5=962cf4190b9f31e4; SESSDATA=48de3d30%2C1745307687%2C1de65%2Aa1CjBnI1vGMeNe8uPb011SfN_WWTgA7ZSjo1nweoJVHQQDNIDQpmRnW5wrRDCz-11QX_gSVjE5NllQTThYMnhVT0dCaE5JX0JrUXpzSXVEVUJjQjBia3pOcnhFYnhha1dEdUJRdV9vbkFZYlhSMXU4MEdtdFBXVUJkYjNWZjJJblJkaHp6dkJaSWdRIIEC;"
     },
     timeout:5000,
     class_name:'番剧&国创&电影&电视剧&纪录片&综艺&全部&追番&追剧&时间表',
